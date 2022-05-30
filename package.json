@@ -41,6 +41,7 @@
     "core-js": "^3.22.7",
     "debug": "^4.3.4",
     "lodash": "^4.17.21",
+    "postcss-loader": "^7.0.0",
     "sweetalert2": "^11.4.17"
   }
 }
