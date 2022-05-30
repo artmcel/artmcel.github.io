@@ -5,7 +5,7 @@
 //import styles
 import './styles.css';
 //import bootsrap si lo necesitas
-//import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 /**
  * importamos el modulo de forma simple para que no ejecute como funcion, sino hasta que sea llamado en el componentes.js
