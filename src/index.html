@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Perfil Profesional</title>
 </head>
-<body class="bg-gray-100">
+<body class="bg-gray-200">
 
     <header class="w-full bg-gray-100 divide-y-2 divide-gray-300">
         <div class="h-14 text-900 text-center">esto es el nav</div>
     </header>
 
-    <main class="container mx-auto px-4 py-4 bg-gray-200 h-screen">
+    <main class="container mx-auto px-4 py-4 bg-gray-100">
         <!--
             default responsive xs: sm: md: lg: xl: 2xl:
         -->
@@ -20,7 +20,7 @@
         <div class="block md:flex">
 
             <div class="m-2 self-center rounded-full sm:flex-col md:flex-col">
-              <img class="block mx-auto w-full h-48 rounded-full" src="https://images.unsplash.com/photo-1653942794582-a13da9e70b88" alt="">
+              <img class="static mx-auto h-48 rounded-full xs:w-full sm:w-1/4" src="https://images.unsplash.com/photo-1653942794582-a13da9e70b88" alt="">
             </div>
     
             <div class="m-2 rounded-lg border-2 border-cyan-50 whitespace-normal">
@@ -30,15 +30,28 @@
 
             <div class="m-2 rounded-lg border-2 border-cyan-50 whitespace-normal">
                 <h2 class="h2">MY SKILLS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil est, repellendus sed officia vel dolor quis cum doloribus natus nulla adipisci soluta recusandae distinctio labore in aliquam autem neque. Id.</p>
 
             </div>
 
             <div class="m-2 rounded-lg border-2 border-cyan-50 whitespace-normal">
                 <h2 class="h2">PROD DEVS</h2>
+
+
+                <div class="flex xs:flex-col sm:flex-col">
+                    <button class="btn-proyectos">Proyect 1</button>
+                    <button class="btn-proyectos">Proyect 2</button>
+                    <button class="btn-proyectos">Proyect 3</button>
+                </div>
             </div>
 
             <div class="m-2 rounded-lg border-2 border-cyan-50 whitespace-normal">
                 <h2 class="h2">LERNING DEVS</h2>
+                <div class="flex xs:flex-col sm:flex-col">
+                    <button class="btn-lerning">Proyect 1</button>
+                    <button class="btn-lerning">Proyect 2</button>
+                    <button class="btn-lerning">Proyect 3</button>
+                </div>
             </div>
 
         </div>
