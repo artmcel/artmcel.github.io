@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base{
+    html{
+        font-family: Proxima Nova, system-ui, sans-serif;
+    }
+}
+
+@layer components{
+    .h2{
+        @apply text-xl text-gray-900 text-center font-bold;
+    }
+}
