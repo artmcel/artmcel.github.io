@@ -12,7 +12,7 @@
         <div class="h-14 text-900 text-center">esto es el nav</div>
     </header>
 
-    <main class="container mx-auto px-4 py-4 bg-gray-100">
+    <main class="container mx-auto px-4 py-4 bg-gray-10  xs:w-96">
         <!--
             default responsive xs: sm: md: lg: xl: 2xl:
         -->
@@ -38,28 +38,26 @@
                 <h2 class="h2">PROD DEVS</h2>
 
 
-                <div class="flex xs:flex-col sm:flex-col">
-                    <button class="btn-proyectos">
-                        <svg class="" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
-                            <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
-                        </svg>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">Proyecto 1</a>
-                    </button>
-                    <button class="btn-proyectos">
-                        <svg class="" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
-                            <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
-                        </svg>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">Proyect 2</a>
-                    </button>
-                    <button class="btn-proyectos">
-                        <svg class="" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
-                            <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
-                        </svg>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">Proyect 3</a>
-                    </button>
+                <div class="flex xs:flex-col sm:flex-col md:flex-row">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam suscipit eius, quisquam voluptates qui harum! Dolorum aliquam eveniet eaque, reiciendis corporis consequuntur, soluta dolor veniam cumque voluptatibus et vero labore.</p>
+                    <div class="proyectos m-2 text-center">
+                        <h3 class="h3">project description</h3>
+                        <button class="btn-proyectos p-2">
+                            <a href="http://" target="_blank" rel="noopener noreferrer">Proyecto 1</a>
+                        </button>
+                    </div>
+                    <div class="proyectos">
+                        <h3 class="h3">project description</h3>
+                        <button class="btn-proyectos">
+                            <a href="http://" target="_blank" rel="noopener noreferrer">Proyect 2</a>
+                        </button>
+                    </div>
+                    <div class="proyectos">
+                        <h3 class="h3">project description</h3>
+                        <button class="btn-proyectos">
+                            <a href="http://" target="_blank" rel="noopener noreferrer">Proyect 3</a>
+                        </button>
+                    </div>
                 </div>
             </article>
 
