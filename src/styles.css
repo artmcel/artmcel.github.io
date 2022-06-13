@@ -22,4 +22,7 @@
     .btn-learning{
         @apply bg-sky-600 hover:bg-sky-800 rounded shadow-lg shadow-sky-500/50 hover:transition hover:scale-105 text-gray-100 font-medium m-2 p-2;
     }
+    .proyectos{
+        @apply shadow-md m-2 px-1 rounded-md text-center sm:flex-1;
+    }
 }
