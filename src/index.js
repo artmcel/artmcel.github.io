@@ -4,6 +4,7 @@
 
 //import styles
 import './styles.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 //import bootsrap si lo necesitas
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
