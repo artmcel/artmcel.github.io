@@ -27,7 +27,8 @@
         @apply text-xl 
              text-gray-900
                text-center
-               font-bold;
+               font-extrabold
+               tracking-wider;
     }
     .h3{
         @apply text-lg
@@ -60,9 +61,7 @@
                  p-2;
     }
     .proyectos{
-        @apply hover:shadow-md
-               hover:rounded-md
-               m-2
+        @apply m-2
                px-1
                text-center
                sm:flex-1;
