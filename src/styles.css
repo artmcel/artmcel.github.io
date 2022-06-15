@@ -28,7 +28,9 @@
              text-gray-900
                text-center
                font-extrabold
-               tracking-wider;
+               tracking-wider
+               flex
+               justify-center;
     }
     .h3{
         @apply text-lg
