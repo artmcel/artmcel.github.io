@@ -62,12 +62,6 @@
                  m-2
                  p-2;
     }
-    .proyectos{
-        @apply m-2
-               px-1
-               text-center
-               sm:flex-1;
-    }
     .bi {
         @apply m-2
              hover:fill-sky-500;
