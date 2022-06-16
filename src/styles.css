@@ -8,6 +8,12 @@
         overflow-x: hidden;
         font-family: Proxima Nova, system-ui, sans-serif;
     }
+
+    body{
+
+      background-image: url('./assets/back.jpg');
+      
+    }
 }
 
 @layer components{
