@@ -1,6 +1,30 @@
 /**
  * logica del proyecto
  */
+window.addEventListener('load', () => {
+
+    getUser();
+    
+});
+
+const getUser = async () => {
+
+    await import('./services/peticiones').then( module => {
+
+        const user = module.getUser();
+
+        user.then( ({avatar_url, ...all}) => {
+
+            console.log(all);
+    
+            const img = document.getElementById('img-profile');
+
+            img.src = avatar_url;
+        });
+    }).catch(err => console.log(err));
+
+};
+
 const art = document.querySelectorAll('article');
 
 const obs = (entradas, observador) => {
