@@ -75,7 +75,7 @@ const developmentDevs = [
     
     },
     {
-        title : 'Local chat',
+        title : 'Local realtime chat',
         description : 'Local real time chat with Node and Socket.io',
         link : 'https://github.com/artmcel/Local-chat',
     
@@ -83,6 +83,12 @@ const developmentDevs = [
     {
         title : 'Consuming API REST',
         description : 'A simple landign to get users from API REST',
+        link : '',
+    
+    },
+    {
+        title : 'Webpack form',
+        description : 'Web form with webpack and PHP backend, CSS, Bootstrap, GIT',
         link : '',
     
     }
