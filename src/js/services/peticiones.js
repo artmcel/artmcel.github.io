@@ -13,6 +13,7 @@ const productionDevs = [
         title : 'Aula UNIMEX',
         description : 'Landing page developed whit Angular v13, CSS, Bootstrap, GIT',
         link : 'https://aula.unimex.edu.mx/',
+        imagen : './assets/aula.png'
     
     },
     {
