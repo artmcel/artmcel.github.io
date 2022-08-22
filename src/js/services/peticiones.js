@@ -13,14 +13,14 @@ const productionDevs = [
         title : 'Aula UNIMEX',
         description : 'Landing page developed whit Angular v13, CSS, Bootstrap, GIT',
         link : 'https://aula.unimex.edu.mx/',
-        imagen : '../assets/aula.png'
+        imagen : './assets/aula.png'
     
     },
     {
         title : 'Día UNIMEX',
         description : 'Registration form, with PHP, JS, CSS, Bootstrap, GIT',
         link : 'https://unimex.edu.mx/dia-unimex/',
-        imagen: '../assets/dia-unimex.png'
+        imagen: './assets/dia-unimex.png'
     
     },
     {
@@ -34,21 +34,21 @@ const productionDevs = [
         title : 'Proyección Profesional',
         description : 'Registration form, with PHP, JS, CSS, Bootstrap, GIT',
         link : 'https://unimex.edu.mx/proyeccion-profesional/',
-        imagen: '../assets/proyeccion.png'
+        imagen: './assets/proyeccion.png'
     
     },
     {
         title : 'Prospectación',
         description : 'Registration form, with PHP, JS, CSS, Bootstrap, GIT',
         link : 'https://unimexver.edu.mx/prospectacion/',
-        imagen: '../assets/prospectacion.png'
+        imagen: './assets/prospectacion.png'
     
     },
     {
         title : 'Licenciaturas UNIMEX',
         description : 'A group of Registration forms for google campaings, are about 8 forms; with PHP, JS, CSS, Bootstrap, GIT, Webpack',
         link : 'https://landings.unimex.edu.mx/licenciatura-izcalli/',
-        imagen: '../assets/landings.png'
+        imagen: './assets/landings.png'
     
     }
 ];
