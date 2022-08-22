@@ -22,7 +22,7 @@ const getUser = async () => {
     
             const img = document.getElementById('img-profile');
 
-            //img.src = avatar_url;
+            img.src = avatar_url;
         });
     }).catch(err => console.log(err));
 

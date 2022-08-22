@@ -93,9 +93,9 @@ const developmentDevs = [
     
     },
     {
-        title : 'Consuming API REST',
-        description : 'A simple landign to get users from API REST',
-        link : '',
+        title : 'Consuming API REST and  bulding a CRUD',
+        description : 'CRUD from API REST',
+        link : 'https://artmcel.github.io/NGUserList/',
     
     },
     {
