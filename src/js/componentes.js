@@ -39,12 +39,12 @@ const getProd = async () => {
         devs.forEach( ({title, description, link, imagen}) => {
 
             const divs = `
-            <div id="divDevs" class="m-4 relative group rounded-xl shadow-md first-letter:m-2 px-1 sm:flex-col sm:max-w-md md:max-w-lg lg:max-w-md">
-                <div class="md:shirk-0 group-hover:blur-md">
-                    <img class="rounded-xl" src="${imagen}">
+            <div id="divDevs" class="m-2 relative group rounded-xl shadow-md first-letter:m-2 sm:flex-col sm:max-w-md md:max-w-lg lg:max-w-md">
+                <div class="xs:h-48 md:shirk-0 group-hover:blur-md">
+                    <img class="w-full h-auto rounded-xl xs:h-full" src="${imagen}">
                 </div>
 
-                <div class="hidden absolute inset-0 group-hover:z-10 text-center group-hover:block" id="prodContent">
+                <div class="hidden absolute px-2 inset-0 group-hover:z-10 text-center group-hover:block" id="prodContent">
                     <p class="h3 text-gray-800 xs:text-base">${description}</p>
                     <button class="btn-proyectos">
                         <a class="flex justify-center" href="${link}" target="_blank" rel="noopener noreferrer">
