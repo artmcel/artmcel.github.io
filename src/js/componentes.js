@@ -39,7 +39,7 @@ const getProd = async () => {
         devs.forEach( ({title, description, link, imagen}) => {
 
             const divs = `
-            <div id="divDevs" class="relative group rounded-xl shadow-md first-letter:m-2 px-1 sm:flex-col sm:max-w-md md:max-w-lg lg:max-w-md">
+            <div id="divDevs" class="m-4 relative group rounded-xl shadow-md first-letter:m-2 px-1 sm:flex-col sm:max-w-md md:max-w-lg lg:max-w-md">
                 <div class="md:shirk-0 group-hover:blur-md">
                     <img class="rounded-xl" src="${imagen}">
                 </div>
