@@ -2,39 +2,45 @@
  * logica del proyecto
  */
 
+const peticiones = import(/* webpackChunkName: "peticiones" */ './services/peticiones'),
+      productionDiv = document.getElementById('production-devs'),
+      personalDiv = document.getElementById('personal-devs');
+
 window.addEventListener('load', () => {
 
-    getUser();
+    //getUser();
     getDevs();
     getProd();
     
 });
 
-const getUser = async () => {
+/**
+ * funciton to get GitHub data
+ const getUser = async () => {
+ 
+     await import('./services/peticiones').then( module => {
+ 
+         const user = module.getUser();
+ 
+         user.then( ({avatar_url, ...all}) => {
+ 
+             //console.log(all);
+     
+             //const img = document.getElementById('img-profile');
+ 
+             //img.src = avatar_url;
+         });
+     }).catch(err => console.log(err));
+ 
+ };
 
-    await import('./services/peticiones').then( module => {
-
-        const user = module.getUser();
-
-        user.then( ({avatar_url, ...all}) => {
-
-            //console.log(all);
-    
-            //const img = document.getElementById('img-profile');
-
-            //img.src = avatar_url;
-        });
-    }).catch(err => console.log(err));
-
-};
+ */
 
 const getProd = async () => {
 
-    await import('./services/peticiones').then( module => {
+    await peticiones.then( module => {
 
-        const devs = module.productionDevs,
-              productionDiv = document.getElementById('production-devs');
-        
+        const devs = module.productionDevs;
               
         devs.forEach( ({title, description, link, imagen}) => {
 
@@ -72,10 +78,10 @@ const getProd = async () => {
 
 const getDevs = async () => {
 
-    await import('./services/peticiones').then( module => {
+    await peticiones.then( module => {
 
-        const devs = module.developmentDevs,
-              personalDiv = document.getElementById('personal-devs');
+        const devs = module.developmentDevs;
+              
         
               
         devs.forEach( ({title, description, link}) => {
