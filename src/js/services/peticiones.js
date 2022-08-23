@@ -58,52 +58,76 @@ const developmentDevs = [
 
     {
         title : 'Prospectación Update',
-        description : 'This is Prospectacion project but with Webpack, I mean is the same project but bulding with other technology as Webpack the backend with PHP',
-        link : 'https://prueba.unimex.edu.mx/',
+        description : 'This is Prospectacion project but with Webpack and backend with PHP',
+        link : 'https://github.com/artmcel/prospectacion',
+        imagen : './assets/prospectacion.png'
     
     },
     {
-        title : 'otro update',
-        description : 'Form project with Webpack and a Backend in PHP, here I do not use WS so I created a Object to consuming with JS and I send the data with fetch',
-        link : '',
+        title : 'Proyeccion Update',
+        description : 'Proyección project with Webpack, PHP, Bootstrap',
+        link : 'https://github.com/artmcel/proyeccion',
+        imagen : './assets/proyeccion.png'
     
     },
     {
-        title : 'My webpack v5',
-        description : 'This is my webpack config for webpack v5 projects',
+        title : 'Webpack v5',
+        description : 'This is my webpack config',
         link : 'https://github.com/artmcel/webpack-inicio',
+        imagen : './assets/code.svg'
     
     },
     {
         title : 'Bulding a SOAP',
-        description : 'Bulding a soapCall and consuming with anonymous functions in PHP',
-        link : '',
+        description : 'Bulding a soapCall and consuming with anonymous functions in PHP 7.X',
+        link : 'https://github.com/artmcel/soap',
+        imagen : './assets/code.svg'
     
     },
     {
         title : 'Backend whit Node',
         description : 'Simple backend with Node and Express and MongoDB',
         link : 'https://github.com/artmcel/prueba2_backend',
+        imagen : './assets/code.svg'
     
     },
     {
         title : 'Local realtime chat',
         description : 'Local real time chat with Node and Socket.io',
         link : 'https://github.com/artmcel/Local-chat',
+        imagen : './assets/code.svg'
     
     },
     {
-        title : 'Consuming API REST and  bulding a CRUD',
-        description : 'CRUD from API REST',
+        title : 'CRUD with Angular',
+        description : 'Consuming API RESt with Angular and ReqRes(Fake API), Tailwind',
         link : 'https://artmcel.github.io/NGUserList/',
+        imagen : './assets/lista-usuarios.png'
     
     },
     {
-        title : 'Webpack form',
-        description : 'Web form with webpack and PHP backend, CSS, Bootstrap, GIT',
-        link : '',
+        title : 'CRUD with PHP SQLServer',
+        description : 'A CRUD with PHP, SQLServer, Webpack, Bootstrap in a local DB',
+        link : 'https://github.com/artmcel/agrega-alumnos',
+        imagen : './assets/code.svg'
+    
+    },
+    {
+        title : 'Registration Form',
+        description : 'A form to register prospects; PHP7, WebPack, Bootstrap',
+        link : 'https://github.com/artmcel/registro-prosp',
+        imagen : './assets/registro-prosp.png'
+    
+    },
+    {
+        title : 'Graduaciones',
+        description : 'WebAplication to create tikets with Angular, PHP, MySQL',
+        link : 'https://github.com/artmcel/graduaciones',
+        imagen : './assets/code.svg'
     
     }
+
+    
 
 ];
 
