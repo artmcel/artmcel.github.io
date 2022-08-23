@@ -45,10 +45,18 @@ module.exports = {
                 ]
             },
             {
-                test : /\.(png|svg|jpe?g|gif|ico)$/,
+                test : /\.(png|jpe?g|gif|ico)$/,
                 type : 'asset/resource',
                 generator : {
                     filename : 'assets/[name][ext]'
+                }
+
+            },
+            {
+                test : /\.svg$/,
+                type : 'asset/resource',
+                generator : {
+                    filename : 'assets/icons/[name][ext]'
                 }
 
             }
