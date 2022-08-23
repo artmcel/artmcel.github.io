@@ -27,7 +27,7 @@ const productionDevs = [
         title : 'Nuevo Ingreso',
         description : 'Web application with login PHP, JS, jQuery, CSS, Bootstrap, GIT',
         link : 'https:/nuevoingreso.unimex.edu.mx/',
-        imagen: '../assets/nuevo-ingreso.png'
+        imagen: './assets/nuevo-ingreso.png'
     
     },
     {
