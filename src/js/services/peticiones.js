@@ -11,42 +11,42 @@ const productionDevs = [
     
     {
         title : 'Aula UNIMEX',
-        description : 'Landing page developed whit Angular v13, CSS, Bootstrap, GIT',
+        description : 'Landing page desarrollada con Angular v13, CSS, Bootstrap, GIT',
         link : 'https://aula.unimex.edu.mx/',
         imagen : './assets/aula.png'
     
     },
     {
         title : 'Día UNIMEX',
-        description : 'Registration form, with PHP, JS, CSS, Bootstrap, GIT',
+        description : 'Formulario de registro desarrollado con PHP, JS, CSS, Bootstrap, GIT',
         link : 'https://unimex.edu.mx/dia-unimex/',
         imagen: './assets/dia-unimex.png'
     
     },
     {
         title : 'Nuevo Ingreso',
-        description : 'Web application with login PHP, JS, jQuery, CSS, Bootstrap, GIT',
+        description : 'Aplicación Web para mostrar videos de inducción, desarrollado con PHP, JS, jQuery, CSS, Bootstrap, GIT',
         link : 'https:/nuevoingreso.unimex.edu.mx/',
         imagen: './assets/nuevo-ingreso.png'
     
     },
     {
         title : 'Proyección Profesional',
-        description : 'Registration form, with PHP, JS, CSS, Bootstrap, GIT',
+        description : 'Formulario de registro para prospectos de Posgrado desarrollado con PHP, JS, CSS, Bootstrap, GIT',
         link : 'https://unimex.edu.mx/proyeccion-profesional/',
         imagen: './assets/proyeccion.png'
     
     },
     {
         title : 'Prospectación',
-        description : 'Registration form, with PHP, JS, CSS, Bootstrap, GIT',
+        description : 'Formulalrio para registro de prospectos, desarrollado con PHP, JS, CSS, Bootstrap, GIT',
         link : 'https://unimexver.edu.mx/prospectacion/',
         imagen: './assets/prospectacion.png'
     
     },
     {
         title : 'Licenciaturas UNIMEX',
-        description : 'A group of Registration forms for google campaings, are about 8 forms; with PHP, JS, CSS, Bootstrap, GIT, Webpack',
+        description : 'Grupo de 8 formularios de registro conectadas con campañas de Google, desarrollados PHP, JS, CSS, Bootstrap, GIT, Webpack',
         link : 'https://landings.unimex.edu.mx/licenciatura-izcalli/',
         imagen: './assets/landings.png'
     
@@ -58,70 +58,70 @@ const developmentDevs = [
 
     {
         title : 'Prospectación Update',
-        description : 'This is Prospectacion project but with Webpack and backend with PHP',
+        description : 'Proyecto de prospectación pero ahora con Webpack, PHP y Bootstrap',
         link : 'https://github.com/artmcel/prospectacion',
         imagen : './assets/prospectacion.png'
     
     },
     {
         title : 'Proyeccion Update',
-        description : 'Proyección project with Webpack, PHP, Bootstrap',
+        description : 'Proyecto de proyección pero ahora con Webpack, PHP, Bootstrap',
         link : 'https://github.com/artmcel/proyeccion',
         imagen : './assets/proyeccion.png'
     
     },
     {
         title : 'Webpack v5',
-        description : 'This is my webpack config',
+        description : 'Mi configuración para crear aplicaciones web con WebPack v5',
         link : 'https://github.com/artmcel/webpack-inicio',
         imagen : './assets/code.svg'
     
     },
     {
-        title : 'Bulding a SOAP',
-        description : 'Bulding a soapCall and consuming with anonymous functions in PHP 7.X',
+        title : 'Construyendo un SOAP Client',
+        description : 'Consumiendo un WS con SoapClient en PHP 7.X',
         link : 'https://github.com/artmcel/soap',
         imagen : './assets/code.svg'
     
     },
     {
-        title : 'Backend whit Node',
-        description : 'Simple backend with Node and Express and MongoDB',
+        title : 'Backend en Node',
+        description : 'Un backend con Node and Express and MongoDB',
         link : 'https://github.com/artmcel/prueba2_backend',
         imagen : './assets/code.svg'
     
     },
     {
-        title : 'Local realtime chat',
-        description : 'Local real time chat with Node and Socket.io',
+        title : 'Chat en tiempo real',
+        description : 'Proyecto de un chat en tiempo real con Node and Socket.io y Bulba.io',
         link : 'https://github.com/artmcel/Local-chat',
         imagen : './assets/code.svg'
     
     },
     {
-        title : 'CRUD with Angular',
-        description : 'Consuming API RESt with Angular and ReqRes(Fake API), Tailwind',
+        title : 'CRUD con Angular',
+        description : 'Creando un CRUD con Angular, API REST ReqRes y Tailwind',
         link : 'https://artmcel.github.io/NGUserList/',
         imagen : './assets/lista-usuarios.png'
     
     },
     {
-        title : 'CRUD with PHP SQLServer',
-        description : 'A CRUD with PHP, SQLServer, Webpack, Bootstrap in a local DB',
+        title : 'CRUD con PHP y SQL Server',
+        description : 'CRUD con PHP, SQLServer, Webpack, Bootstrap con una DB Local (examen de desarrollo web)',
         link : 'https://github.com/artmcel/agrega-alumnos',
         imagen : './assets/code.svg'
     
     },
     {
-        title : 'Registration Form',
-        description : 'A form to register prospects; PHP7, WebPack, Bootstrap',
+        title : 'Formulario de registro página web',
+        description : 'Formulario de registro de prospectos, desarrollado con PHP7, WebPack, Bootstrap',
         link : 'https://github.com/artmcel/registro-prosp',
         imagen : './assets/registro-prosp.png'
     
     },
     {
         title : 'Graduaciones',
-        description : 'WebAplication to create tikets with Angular, PHP, MySQL',
+        description : 'Aplicación web para creación de boletos de graduación y registro de entrada, desarrollada con Angular, PHP, MySQL',
         link : 'https://github.com/artmcel/graduaciones',
         imagen : './assets/code.svg'
     
