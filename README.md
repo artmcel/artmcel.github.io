@@ -1,10 +1,8 @@
-# Proyecto de perfil profesional
+# Proyecto de portafolio profesional
 
-Perfil profesional con webpack.
+Portafolio.
 
 ## Perfil creado con:
 
 - Webpack v5.
-- Bootstrap v5
-- SweetAlert
-- AnimateCss
+- Tailwind
