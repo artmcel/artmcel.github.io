@@ -46,7 +46,7 @@ const getProd = async () => {
 
             const divs = `
             <div id="divDevs" class="m-2 relative group rounded-xl shadow-md first-letter:m-2 sm:flex-col sm:max-w-md md:max-w-lg lg:max-w-md">
-                <div class="rounded-xl xs:h-48 md:shirk-0">
+                <div class="rounded-xl xs:h-1/2 md:shirk-0">
                     <img class="w-full h-auto rounded-xl xs:h-full" src="${imagen}">
                 </div>
 
@@ -88,7 +88,7 @@ const getDevs = async () => {
 
             const divs = `
             <div id="divDevs" class="m-2 relative group rounded-xl shadow-md first-letter:m-2 sm:flex-col sm:max-w-md md:max-w-lg lg:max-w-md">
-                <div class="rounded-xl xs:h-48 md:shirk-0">
+                <div class="rounded-xl xs:h-1/2 md:shirk-0">
                     <img class="w-full h-auto rounded-xl xs:h-full" src="${imagen}">
                 </div>
 
