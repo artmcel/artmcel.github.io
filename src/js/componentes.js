@@ -46,12 +46,12 @@ const getProd = async () => {
 
             const divs = `
             <div id="divDevs" class="m-2 relative group rounded-xl shadow-md first-letter:m-2 sm:flex-col sm:max-w-md md:max-w-lg lg:max-w-md">
-                <div class="rounded-xl xs:h-48 md:shirk-0 group-hover:blur-lg">
+                <div class="rounded-xl xs:h-48 md:shirk-0">
                     <img class="w-full h-auto rounded-xl xs:h-full" src="${imagen}">
                 </div>
 
-                <div class="invisible absolute px-2 inset-0 group-hover:z-10 text-center group-hover:visible group-hover:flex-wrap grop-hover:items-center" id="prodContent">
-                    <p class="h3 py-8 text-gray-800 xs:text-base">${description}</p>
+                <div class="flex-wrap inset-0 text-center" id="prodContent">
+                    <p class="h3 text-gray-800 xs:text-base">${description}</p>
                     <button class="btn-proyectos">
                         <a class="flex justify-center" href="${link}" target="_blank" rel="noopener noreferrer">
                             ${title}
@@ -88,12 +88,12 @@ const getDevs = async () => {
 
             const divs = `
             <div id="divDevs" class="m-2 relative group rounded-xl shadow-md first-letter:m-2 sm:flex-col sm:max-w-md md:max-w-lg lg:max-w-md">
-                <div class="rounded-xl xs:h-48 md:shirk-0 group-hover:blur-lg">
+                <div class="rounded-xl xs:h-48 md:shirk-0">
                     <img class="w-full h-auto rounded-xl xs:h-full" src="${imagen}">
                 </div>
 
-                <div class="invisible absolute px-2 inset-0 group-hover:z-10 text-center group-hover:visible group-hover:flex-wrap grop-hover:items-center" id="prodContent">
-                    <p class="h3 py-8 text-gray-800 xs:text-base">${description}</p>
+                <div class="flex-wrap inset-0 text-center" id="prodContent">
+                    <p class="h3 text-gray-800 xs:text-base">${description}</p>
                     <button class="btn-learning">
                         <a class="flex justify-center" href="${link}" target="_blank" rel="noopener noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mx-1" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
