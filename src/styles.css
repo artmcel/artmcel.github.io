@@ -43,10 +43,10 @@
                font-bold;
     }	
     .btn-proyectos{
-        @apply bg-emerald-600 
-               hover:bg-emerald-800
+        @apply bg-[#078080] 
+               hover:bg-[#145454]
                  rounded shadow-lg
-               shadow-slate-500/50
+               hover:shadow-[#078080]
                  hover:transition
                  hover:scale-105
                text-gray-100
@@ -55,10 +55,10 @@
                  p-2;
     }
     .btn-learning{
-        @apply bg-orange-600
-               hover:bg-orange-800
+        @apply bg-[#f45d48]
+               hover:bg-[#df5a48]
                  rounded shadow-lg
-                 shadow-sky-500/50
+                 hover:shadow-[#f45d48]
                  hover:transition
                  hover:scale-105
                  text-gray-100
