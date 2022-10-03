@@ -8,7 +8,7 @@ const peticiones = import(/* webpackChunkName: "peticiones" */ './services/petic
 
 window.addEventListener('load', () => {
 
-    //getUser();
+    getUser();
     getDevs();
     getProd();
     
@@ -16,6 +16,7 @@ window.addEventListener('load', () => {
 
 /**
  * funciton to get GitHub data
+ */
  const getUser = async () => {
  
      await import('./services/peticiones').then( module => {
@@ -26,15 +27,13 @@ window.addEventListener('load', () => {
  
              //console.log(all);
      
-             //const img = document.getElementById('img-profile');
- 
-             //img.src = avatar_url;
+             const img = document.getElementById('img-profile');
+             img.src = avatar_url;
          });
      }).catch(err => console.log(err));
  
  };
 
- */
 
 const getProd = async () => {
 
