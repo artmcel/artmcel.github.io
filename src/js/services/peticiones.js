@@ -53,9 +53,9 @@ const productionDevs = [
     },
     {
         title : 'Graduaciones',
-        description : '2 Landing page que constan de formularios de registro para asistencia a graduaciones, desarrollados con Angular, Bootstrap, GIT, y consumo de API Rest',
-        link : '#',
-        imagen: './assets/graduaciones.png'
+        description : 'Landings de registro de Asistencia a graduaciones; desarrollado con Angular, CSS, Bootstrap, GIT y consumo de API Rest',
+        link : 'https://landings.unimex.edu.mx/licenciatura-izcalli/',
+        imagen: 'https://artmcel.github.io/assets/graduaciones.png'
     
     }
 ];

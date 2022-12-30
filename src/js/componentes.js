@@ -49,11 +49,11 @@ const getProd = async () => {
                     <img class="w-full h-auto rounded-xl xs:h-full" src="${imagen}">
                 </div>
 
-                <div class="invisible absolute px-2 inset-0 group-hover:z-10 text-center group-hover:visible group-hover:flex-wrap grop-hover:items-center" id="prodContent">
+                <div class="flex-wrap inset-0 text-center" id="prodContent">
+                    <p class="h3 text-gray-800 xs:text-base">${description}</p>
                     <button class="btn-proyectos">
                         <a class="flex justify-center" rel="noopener noreferrer">${title}</a>
                     </button>
-                    <p class="h3 py-8 text-gray-800 xs:text-base">${description}</p>
                 </div>
             </div>
             `;	
