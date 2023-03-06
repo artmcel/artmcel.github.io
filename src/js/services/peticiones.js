@@ -39,7 +39,7 @@ const productionDevs = [
     },
     {
         title : 'Prospectación',
-        description : 'Formulalrio para registro de prospectos; desarrollado con PHP, JS, CSS, Bootstrap, GIT',
+        description : 'Formulario para registro de prospectos; desarrollado con PHP, JS, CSS, Bootstrap, GIT',
         link : 'https://unimexver.edu.mx/prospectacion/',
         imagen: 'https://artmcel.github.io/assets/prospectacion.png'
     
@@ -101,7 +101,7 @@ const developmentDevs = [
     {
         title : 'Chat en tiempo real',
         description : 'Proyecto de un chat en tiempo real con Node and Socket.io y Bulba.io',
-        link : 'https://github.com/artmcel/Local-chat',
+        link : 'https://codesandbox.io/p/github/artmcel/Local-chat/master?workspace=%257B%2522activeFileId%2522%253Anull%252C%2522openFiles%2522%253A%255B%255D%252C%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522gitSidebarPanel%2522%253A%2522COMMIT%2522%252C%2522spaces%2522%253A%257B%2522clex5tjo80015356ifxngy86o%2522%253A%257B%2522key%2522%253A%2522clex5tjo80015356ifxngy86o%2522%252C%2522name%2522%253A%2522Default%2522%252C%2522devtools%2522%253A%255B%257B%2522type%2522%253A%2522PREVIEW%2522%252C%2522taskId%2522%253A%2522start%2522%252C%2522port%2522%253A6677%252C%2522key%2522%253A%2522clex5tw3f0084356izcurc4bs%2522%252C%2522isMinimized%2522%253Afalse%257D%252C%257B%2522type%2522%253A%2522TASK_LOG%2522%252C%2522taskId%2522%253A%2522start%2522%252C%2522key%2522%253A%2522clex5tusz005j356iojc1qnmj%2522%252C%2522isMinimized%2522%253Atrue%257D%255D%257D%257D%252C%2522currentSpace%2522%253A%2522clex5tjo80015356ifxngy86o%2522%252C%2522spacesOrder%2522%253A%255B%2522clex5tjo80015356ifxngy86o%2522%255D%252C%2522hideCodeEditor%2522%253Afalse%257D',
         imagen : 'https://artmcel.github.io/assets/code.svg'
     
     },
