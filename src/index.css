@@ -6,7 +6,7 @@
 @layer base{
     html, body{
         font-family: Proxima Nova, system-ui, sans-serif;
-        background-color: white;
+        background-color: #f9f4ef
     }
     .container{
       @apply xs:max-w-fit !important;
@@ -17,7 +17,7 @@
     .h1{
         @apply font-extrabold
                tracking-wider
-             text-gray-800
+             text-[#020826]
                xs:text-2xl
                sm:text-2xl
                md:text-3xl
@@ -41,26 +41,13 @@
                text-center
                font-bold;
     }	
-    .btn-proyectos{
-        @apply bg-emerald-600 
-               hover:bg-emerald-800
+    .btn-learning, .btn-proyectos{
+        @apply bg-[#8c7851]
+               hover:bg-[#716040]
                  rounded shadow-lg
-               shadow-slate-500/50
                  hover:transition
                  hover:scale-105
-               text-gray-100
-                 font-medium
-                 m-2
-                 p-2;
-    }
-    .btn-learning{
-        @apply bg-orange-600
-               hover:bg-orange-800
-                 rounded shadow-lg
-                 shadow-sky-500/50
-                 hover:transition
-                 hover:scale-105
-                 text-gray-100
+                 text-[#fffffe]
                  font-medium
                  m-2
                  p-2;

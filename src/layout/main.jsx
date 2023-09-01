@@ -6,7 +6,7 @@ import PersonalDevs from '../PersonalDevs';
 
 export default function Main() {
   return (
-    <main className="container mx-auto px-4 py-4 bg-gray-50 rounded-b-lg">
+    <main className="container mx-auto px-4 py-4">
         {/*default tailwind responsive xs: sm: md: lg: xl: 2xl:*/}
         <section className="flex flex-col ">
 
