@@ -3,17 +3,17 @@ import { productionDevs } from './libs/data'
 
 export default function ProdDevs() {
 
-    function GetProdDevs(){
-
+  function GetProdDevs(){
+    return(
+      productionDevs.map( ({id, title, description, link, imagen}) => {
         return(
-            productionDevs.map( ({id, title, description, link, imagen}) => {
-                <div key={id} id="divDevs" className="m-2 relative group rounded-xl shadow-md first-letter:m-2 sm:flex-col sm:max-w-md md:max-w-lg lg:max-w-md">
-                    <div className="rounded-xl xs:h-48 md:shirk-0 group-hover:blur-lg">
-                        <img className="w-full h-auto rounded-xl xs:h-full" src={imagen} />
+                <div key={id} id="divDevs" className="m-2 relative group rounded-xl shadow-md first-letter:m-2">
+                    <div className="rounded-xl group-hover:blur-lg">
+                        <img className="w-full h-auto rounded-xl" src={imagen} />
                     </div>
-
-                    <div className="invisible absolute px-2 inset-0 group-hover:z-10 text-center group-hover:visible group-hover:flex-wrap grop-hover:items-center" id="prodContent">
-                        <p className="h3 py-8 text-gray-800 xs:text-base">{description}</p>
+      
+                    <div className="text-center" id="prodContent">
+                        <p className="h3 py-8 text-gray-800">{description}</p>
                         <button className="btn-proyectos">
                             <a className="flex justify-center" href={link} target="_blank" rel="noopener noreferrer">
                                 {title}
@@ -28,16 +28,18 @@ export default function ProdDevs() {
                         </button>
                     </div>
                 </div>
-
-            })
         )
+      })
 
+    )
+
+  
     }
 
 
 
   return (
-    <article className="m-2">
+    <article>
       <img
         id="img-profile"
         src={prodDevs}
@@ -60,8 +62,8 @@ export default function ProdDevs() {
         </svg>
       </h2>
 
-      <div className="flex xs:flex-col sm:flex-col md:flex-col">
-        <p className="whitespace-pre-line">
+      <div className="flex flex-col p-2">
+        <p>
           Estos son algunos desarrollos web en mi trabajo actual, en la mayoría
           de estos se consume un WebService (WSDL), tanto para peticiones POST y
           GET a través del SoapClient de PHP. En estos desarrollos no he usado
@@ -73,9 +75,9 @@ export default function ProdDevs() {
         </p>
         <div
           id="production-devs"
-          className="all-projects sm:self-center md:flex md:flex-wrap md:justify-center lg:flex-wrap"
+          className="all-projects"
         >
-            <GetProdDevs/>
+          <GetProdDevs/>
         </div>
       </div>
     </article>
