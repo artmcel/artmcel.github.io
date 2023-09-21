@@ -81,7 +81,7 @@ export default function ProdDevs() {
         <img
           id="img-profile"
           src={prodDevs}
-          className="fill-bg-sky-800 static mx-auto h-48 rounded-full xs:w-full sm:w-1/4 md:w-1/2"
+          className="mx-auto md:w-2/4 lg:w-1/2"
           alt=""
         />
       </div>
