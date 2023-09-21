@@ -56,4 +56,8 @@
         @apply m-2
              hover:fill-sky-500;
     }
+
+    article{
+      margin: 1rem 0 1rem 0;
+    }
 }
