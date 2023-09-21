@@ -1,7 +1,7 @@
 import ProdDevs from '../ProdDevs';
 import PersonalDevs from '../PersonalDevs';
 import Introduce from '../Introduce';
-import Tech from '../Tech';
+//import Tech from '../Tech';
 
 export default function Main() {
   return (
@@ -11,7 +11,7 @@ export default function Main() {
 
             <Introduce/>
 
-            <Tech/>
+            {/* <Tech/> */}
 
             <ProdDevs/>
 
