@@ -79,7 +79,7 @@ export default function PersonalDevs() {
       <img
         id="img-profile"
         src={personalDevs}
-        className="static mx-auto h-48 rounded-full xs:w-full sm:w-1/4 md:w-1/2"
+        className="mx-auto md:w-2/4 lg:w-1/2"
         alt=""
       />
       <h2 className="h2">
@@ -98,17 +98,17 @@ export default function PersonalDevs() {
         </svg>
       </h2>
 
-      <div className="flex flex-col">
-        <p>
-          Estos son desarrollos personales, códigos, proyectos de cursos, entre
+      <div className="flex flex-col m-2">
+        <p className='leading-realxed'>
+          Estos son algunas migraciones, códigos, proyectos de cursos, entre
           otros; desarrollados con el fin de poner en práctica lo aprendido a lo
           largo de mi experiencia laboral así como de los cursos, o por aprender
-          sobre una tecnología.
+          sobre una tecnología, algunos también son algunas migraciones de una tecnología a otra.
         </p>
 
         <div
           id="personal-devs"
-          className="all-projects"
+          className="all-projects m-2"
         >
             <GetPersonalDevs/>
         </div>
