@@ -1,18 +1,21 @@
 import profile from './assets/profile-picture.jpeg';
 
-
 export default function Introduce() {
   return (
     <article className="flex flex-col justify-center items-center md:flex-row">
-      <div className="m-4 mb-8 drop-shadow-2xl bg-[#8c7851] rounded-lg -rotate-12">
+      <div className="m-4 w-3/4 drop-shadow-2xl bg-[#8c7851] rounded-lg -rotate-12
+        md:w-3/4 md:basis-2/4 md:mx-7
+        lg:w-1/4 lg:basis-1/4">
         <img
           id="img-profile"
           src={profile}
-          className="object-center rounded-lg rotate-12"
+          className="p-3 object-center rounded-lg rotate-12 w-auto h-auto"
           alt="profile-img"
         />
       </div>
-      <div className="m-">
+      <div className="m-4 
+        md:basis-3/4
+        lg:w-3/4 lg:basis-3/4">
         <h2 className="h2">SOBRE MÍ 👋</h2>
         <p className="whitespace-pre-line leading-relaxed">
           Mi nombre es Arturo Morales, soy <a className="font-bold text-lg">Desarrollador Full Stack</a> 💻, tengo +5 años
