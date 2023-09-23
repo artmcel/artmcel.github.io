@@ -6,7 +6,7 @@
 @layer base{
     html, body{
         font-family: Proxima Nova, system-ui, sans-serif;
-        background-color: #f9f4ef
+        background-color: #f9f4ef;
     }
     .container{
       @apply xs:max-w-fit !important;
