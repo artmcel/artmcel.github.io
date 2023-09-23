@@ -85,7 +85,7 @@ export default function PersonalDevs() {
       <h2 className="h2">DESARROLLOS PERSONALES 👨🏻‍💻🚀</h2>
 
       <div className="flex flex-col m-2">
-        <p className='leading-realxed'>
+        <p className='leading-realxed lg:text-lg'>
           Estos son algunas migraciones, códigos, proyectos de cursos, entre
           otros; desarrollados con el fin de poner en práctica lo aprendido a lo
           largo de mi experiencia laboral así como de los cursos, o por aprender

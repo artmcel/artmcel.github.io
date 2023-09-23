@@ -87,7 +87,7 @@ export default function ProdDevs() {
       </div>
       <h2 className="h2">DESARROLLOS ON-LINE 🖥️🌎</h2>
       <div className="flex flex-col m-2">
-        <p className='leading-relaxed'>
+        <p className='leading-relaxed lg:text-lg'>
           Estos son algunos proyectos que se encuentran en un ambiente productivo.<br />
           En la mayoría de estos proyectos se consumen Servicios Web tanto SOAP como API REST,
           se realizan peticiones POST y GET. <br />
