@@ -1,7 +1,7 @@
 import logo1 from '../assets/logo1.png';
 export default function Header() {
   return (
-    <header className="w-full h-auto top-0 sticky z-10 bg-[#fffffe] text-center backdrop-blur-sm bg-white/30">
+    <header className="bg-[#fffffe] text-center">
       <nav className="grid grid-rows-2 grid-flow-col">
         <div className="row-span-2 m-2 mx-auto">
           <img className='h-auto w-24 lg:w-48' src={logo1} alt="logo"/>
