@@ -10,6 +10,9 @@ export default {
         'xs': { 'min' : '250px', 'max': '639px'},
       },
     },
+    fontFamily:{
+      'sonsie': ['Sonsie One']
+    }
   },
   plugins: [],
 }
