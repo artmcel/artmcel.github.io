@@ -1,18 +1,22 @@
 header{
     width: 100%;
+    padding: 1rem;
     position:sticky;
     top: 0;
     z-index:10;
     animation: adjust-header linear both;
     animation-timeline: scroll();
     animation-range: 0 200px;
+    font-weight: bold;
 }
-
 @keyframes adjust-header {
     to{
         background: rgb(255 255 255 / 0.3);
         backdrop-filter: blur(5px);
-        font-size: 12px;
-        height: 50px;
+        padding: .5rem;
     }
+}
+
+box-icon{
+    margin: 0 1rem 0 1rem;
 }
