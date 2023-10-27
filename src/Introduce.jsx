@@ -16,17 +16,13 @@ export default function Introduce() {
         lg:w-3/4 lg:basis-3/4">
         <h2 className="h2">SOBRE MÍ 👋</h2>
         <p className="whitespace-pre-line leading-relaxed lg:text-lg">
-          Mi nombre es Arturo Morales, soy <a className="font-bold text-lg">Desarrollador Full Stack</a> 💻, tengo +5 años
+          Mi nombre es Arturo Morales Celis, nací en México y soy un apasionado <a className="font-bold text-lg">FullStack Developer</a> 💻, tengo +5 años
           de experiencia en el desarrollo, mantenimiento de sitios y aplicaciones web.
           <br />
-          Mi experiencia laboral también abarca temas de <a className='font-bold text-lg'>SEO</a>, análisis de sitios web, posicionamiento y auditorias web, keywords, meta tags, tracking, performance, accesibilidad;
+          Tengo experiencia como <a className='font-bold text-lg'>SEO Specialist</a>, análisis de sitios web, posicionamiento y auditorias web, keywords, meta tags, tracking, performance, accesibilidad;
           manejo de herramientas como Google Analytics y Tag Manager Google Search Console, Google trends, entre otros.
           <br />
-          Como <a className="font-bold text-lg">Front End </a>tengo conocimeintos en <a className='font-bold text-lg'>HTML 5, Vanilla JS, CSS3, Bootstrap, Tailwind, Angular</a>
-          <br />
-          Como <a className='font-bold text-lg'>Back End </a>tengo conocimientos en <a className='font-bold text-lg'>PHP, Laravel, manejo de MySQL.</a>
-          <br />
-          Dentro de mi ruta de aprendizaje tomo cursos de Node JS, React y Vue.JS
+          Dentro de mi ruta de aprendizaje autodidacta tomo cursos de <a className='font-bold text-lg'>Node JS, React y Vue.JS</a> en Udemy.
         </p>
       </div>
     </article>
