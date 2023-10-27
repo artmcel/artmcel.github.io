@@ -3,13 +3,11 @@ import profile from './assets/profile-picture.jpeg';
 export default function Introduce() {
   return (
     <article className="flex flex-col justify-center items-center md:flex-row">
-      <div className="m-4 w-3/4 drop-shadow-2xl bg-[#8c7851] rounded-lg -rotate-12
-        md:w-3/4 md:basis-2/4 md:mx-7
-        lg:w-1/4 lg:basis-1/4">
+      <div className="">
         <img
           id="img-profile"
           src={profile}
-          className="p-3 object-center rounded-lg rotate-12 w-auto h-auto"
+          className="object-center rounded-lg shadow-2xl shadow-[#8c7851]/50 w-auto h-auto"
           alt="profile-img"
         />
       </div>
