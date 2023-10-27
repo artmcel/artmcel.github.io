@@ -1,6 +1,7 @@
 import ProdDevs from '../ProdDevs';
 import PersonalDevs from '../PersonalDevs';
 import Introduce from '../Introduce';
+import { SkillsComponent } from '../components/SkillsComponent';
 //import Tech from '../Tech';
 
 export default function Main() {
@@ -11,7 +12,7 @@ export default function Main() {
 
             <Introduce/>
 
-            {/* <Tech/> */}
+            <SkillsComponent/>
 
             <ProdDevs/>
 
