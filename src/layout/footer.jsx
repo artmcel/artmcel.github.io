@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex p-3 xs:flex-col sm:flex-col md:flex-row text-[#f25042]">
             
             <div className="text-md font-semibold font-mono text-center md:w-1/2">
-                Contactame
+                Contáctame
                 <div className="flex justify-center">
                     <a href="https://github.com/artmcel" target="_blank" rel="noopener noreferrer">
                         <Icon icon="logos:github-octocat" height="24" width="48" className="m-3"/>
