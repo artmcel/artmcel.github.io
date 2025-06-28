@@ -24,8 +24,24 @@ export const skillsObject = [
         icon : 'php',
     },
     {
+        name: 'Laminas API Tools',
+        icon : 'laminas',
+    },
+    {
         name : 'Angular',
         icon : 'angular-icon',
+    },
+    {
+        name : 'React',
+        icon : 'react',
+    },
+    {
+        name : 'Vue',
+        icon : 'vue',
+    },
+    {
+        name : 'Node.js',
+        icon : 'nodejs-icon',
     },
     {
         name : 'Laravel',
@@ -40,7 +56,19 @@ export const skillsObject = [
         icon : 'mysql',
     },
     {
+        name: 'MariaDB',
+        icon : 'mariadb',
+    },
+    {
+        name: 'GraphQL',
+        icon : 'graphql',
+    },
+    {
         name: 'Git',
         icon : 'git-icon',
+    },
+    {
+        name: 'Docker',
+        icon : 'docker-icon',
     }
 ]

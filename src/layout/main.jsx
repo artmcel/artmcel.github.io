@@ -1,8 +1,7 @@
-import ProdDevs from '../ProdDevs';
-import PersonalDevs from '../PersonalDevs';
-import Introduce from '../Introduce';
 import { SkillsComponent } from '../components/SkillsComponent';
-//import Tech from '../Tech';
+import Introduce from '../templates/Introduce';
+import PersonalDevs from '../templates/PersonalDevs';
+import ProdDevs from '../templates/ProductionDevs/ProdDevs';
 
 export default function Main() {
   return (

@@ -13,6 +13,7 @@ export const SkillsComponent = () => {
                             return (
                                 <div key={name} 
                                     className="
+                                    justify-center
                                     flex
                                     items-center
                                     bg-white
@@ -22,11 +23,11 @@ export const SkillsComponent = () => {
                                     font-bold
                                     rounded
                                     h-auto 
-                                    w-48 
+                                    w-48
                                     p-3
                                     m-2 
                                 ">
-                                    <Icon className='mx-auto' icon={`logos:${icon}`} width="24" height="40"/>{name}
+                                    <Icon className='mr-3' icon={`logos:${icon}`} width="24" height="40"/>{name}
                                 </div>
                             )
                         })
