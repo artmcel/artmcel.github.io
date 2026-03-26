@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Icon } from "@iconify/react";
 import prodDevs from "../../assets/online-prod.svg";
 import ProjectCard from "../../components/ProjectCard";
 import { productionDevs } from "../../libs/data";
@@ -31,7 +30,7 @@ export default function ProdDevs() {
             />
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent px-2">
-            DESARROLLOS ON-LINE 🖥️🌎
+            DESARROLLOS ON-LINE
           </h2>
           <div className="h-1 w-32 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full mx-auto mb-6"></div>
           <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
