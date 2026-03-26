@@ -83,7 +83,3 @@ npm run build
 - GitHub: [@artmcel](https://github.com/artmcel)
 - LinkedIn: [Arturo Morales](https://www.linkedin.com/in/arturo-mor-celis/)
 - Email: artmcel@hotmail.com
-
-## 📄 Licencia
-
-Este proyecto es de código abierto y está disponible bajo la licencia MIT.
