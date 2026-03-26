@@ -1,23 +1,18 @@
-import { SkillsComponent } from '../components/SkillsComponent';
-import Introduce from '../templates/Introduce';
-import PersonalDevs from '../templates/PersonalDevs';
-import ProdDevs from '../templates/ProductionDevs/ProdDevs';
+import { SkillsComponent } from "../components/SkillsComponent";
+import Introduce from "../templates/Introduce";
+import PersonalDevs from "../templates/PersonalDevs";
+import ProdDevs from "../templates/ProductionDevs/ProdDevs";
 
 export default function Main() {
   return (
-    <main className="container mx-auto px-4 py-4">
-        {/*default tailwind responsive xs: sm: md: lg: xl: 2xl:*/}
-        <section className="flex flex-col ">
+    <main className="relative pt-48 sm:pt-55 md:pt-48">
+      <Introduce />
+      
+      <SkillsComponent />
 
-            <Introduce/>
+      <ProdDevs />
 
-            <SkillsComponent/>
-
-            <ProdDevs/>
-
-            <PersonalDevs/>
-
-        </section>
+      <PersonalDevs />
     </main>
-  )
+  );
 }

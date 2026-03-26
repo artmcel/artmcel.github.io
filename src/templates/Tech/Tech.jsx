@@ -11,7 +11,7 @@ export default function Tech() {
           className="static mx-auto h-48 rounded-full xs:w-full sm:w-1/4 md:w-1/2"
           alt=""
         />
-        <h2 className="h2">MIS HABILIDADES 🔥</h2>
+        <h2 className="h2">MIS HABILIDADES</h2>
         <p>
           Como lo mencione anteriormente tengo conocimientos sólidos en HTML5,
           PHP, JavaScript, CSS y también en SEO, aquí dejo una pequeña lista:
