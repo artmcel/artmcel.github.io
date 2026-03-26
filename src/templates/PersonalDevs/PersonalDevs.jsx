@@ -29,7 +29,7 @@ export default function PersonalDevs() {
             />
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent px-2">
-            DESARROLLOS PERSONALES 👨🏻‍💻🚀
+            DESARROLLOS PERSONALES
           </h2>
           <div className="h-1 w-32 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mx-auto mb-6"></div>
           <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
