@@ -28,17 +28,39 @@ const ScrollToTop = () => {
   return (
     <AnimatePresence>
       {isVisible && (
-        <motion.button
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0, scale: 0 }}
-          onClick={scrollToTop}
-          className="fixed bottom-8 right-8 z-50 p-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-110"
-          whileHover={{ y: -5 }}
-          whileTap={{ scale: 0.9 }}
+        <motion.div
+          initial={{ opacity: 0, scale: 0, rotate: -180 }}
+          animate={{ opacity: 1, scale: 1, rotate: 0 }}
+          exit={{ opacity: 0, scale: 0, rotate: 180 }}
+          transition={{ type: "spring", stiffness: 260, damping: 20 }}
+          className="fixed bottom-6 right-6 md:bottom-8 md:right-8 z-50"
         >
-          <Icon icon="heroicons:arrow-up-20-solid" className="w-6 h-6" />
-        </motion.button>
+          <motion.button
+            onClick={scrollToTop}
+            className="group relative bg-neo-yellow border-4 border-neo-black shadow-brutal hover:shadow-brutal-lg transition-all duration-150 hover:translate-x-1 hover:-translate-y-1"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            aria-label="Scroll to top"
+          >
+            {/* Button content */}
+            <div className="flex flex-col items-center justify-center p-3 md:p-4">
+              <Icon 
+                icon="heroicons:arrow-up-20-solid" 
+                className="w-7 h-7 md:w-8 md:h-8 text-neo-black mb-1 group-hover:animate-bounce" 
+              />
+              <span className="font-mono text-[10px] md:text-xs font-bold uppercase tracking-wider text-neo-black">
+                Top
+              </span>
+            </div>
+            
+            {/* Decorative corner accent */}
+            <motion.div
+              className="absolute -top-1 -left-1 w-3 h-3 bg-neo-accent border-2 border-neo-black"
+              animate={{ rotate: [0, 90, 180, 270, 360] }}
+              transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
+            />
+          </motion.button>
+        </motion.div>
       )}
     </AnimatePresence>
   );

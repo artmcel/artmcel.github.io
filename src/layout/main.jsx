@@ -5,7 +5,7 @@ import ProdDevs from "../templates/ProductionDevs/ProdDevs";
 
 export default function Main() {
   return (
-    <main className="relative pt-48 sm:pt-55 md:pt-48">
+    <main className="relative pt-40 sm:pt-44 md:pt-40 overflow-x-hidden">
       <Introduce />
       
       <SkillsComponent />
