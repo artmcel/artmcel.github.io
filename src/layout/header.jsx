@@ -7,7 +7,7 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
+      setScrolled(window.scrollY > 100);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -17,56 +17,50 @@ export default function Header() {
     <motion.header
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.5, type: "spring" }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-white/90 backdrop-blur-md shadow-lg py-3"
-          : "bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900 py-5"
+          ? "bg-neo-white border-b-4 border-neo-black shadow-brutal"
+          : "bg-neo-accent border-b-4 border-neo-black"
       }`}
     >
-      <div className="container mx-auto px-4">
-        <motion.div
-          initial={{ opacity: 0, y: -10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
-          className="flex flex-col items-center justify-center gap-2"
-        >
-          {/* Nombre */}
-          <h1
-            className={`font-bold text-xl sm:text-2xl md:text-3xl tracking-tight transition-colors duration-300 text-center ${
-              scrolled
-                ? "text-slate-900 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent"
-                : "text-white"
-            }`}
+      <div className="container mx-auto px-4 py-2 md:py-4">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-2 md:gap-4">
+          {/* Logo/Nombre */}
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.2 }}
+            className="flex flex-col items-center md:items-start"
           >
-            Arturo Morales Celis
-          </h1>
+            <h1 className="font-display text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-neo-black uppercase tracking-tighter">
+              Arturo <span className="text-neo-black">Morales</span>
+            </h1>
+            <div className="flex items-center gap-2 mt-1">
+              <span className="h-2 w-2 bg-neo-black rounded-full"></span>
+              <p className="font-mono text-xs md:text-sm text-neo-black uppercase tracking-wider">
+                Full-Stack Dev
+              </p>
+            </div>
+          </motion.div>
 
-          {/* Cargo */}
-          <p
-            className={`text-sm sm:text-base transition-colors duration-300 text-center ${
-              scrolled ? "text-slate-600" : "text-purple-200"
-            }`}
+          {/* Enlaces sociales */}
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.3 }}
+            className="flex items-center gap-2 sm:gap-3"
           >
-            Full-Stack Developer
-          </p>
-
-          {/* Iconos de Contacto */}
-          <div className="flex items-center gap-2 sm:gap-3 mt-1">
             <a
               href="https://github.com/artmcel"
               target="_blank"
               rel="noopener noreferrer"
-              className={`p-2 rounded-lg transition-all duration-200 hover:scale-110 cursor-pointer ${
-                scrolled
-                  ? "hover:bg-slate-100"
-                  : "hover:bg-white/10 backdrop-blur-sm"
-              }`}
+              className="group relative p-2 sm:p-3 bg-neo-black border-3 sm:border-4 border-neo-black hover:bg-neo-white transition-all duration-150 hover:shadow-brutal-sm hover:-translate-y-1"
               aria-label="GitHub"
             >
               <Icon
-                icon={scrolled ? "mdi:github" : "logos:github-octocat"}
-                className="w-5 h-5 sm:w-6 sm:h-6"
+                icon="mdi:github"
+                className="w-5 h-5 sm:w-6 sm:h-6 text-neo-accent group-hover:text-neo-black transition-colors"
               />
             </a>
 
@@ -74,38 +68,49 @@ export default function Header() {
               href="https://www.linkedin.com/in/arturo-mor-celis/"
               target="_blank"
               rel="noopener noreferrer"
-              className={`p-2 rounded-lg transition-all duration-200 hover:scale-110 cursor-pointer ${
-                scrolled
-                  ? "hover:bg-slate-100"
-                  : "hover:bg-white/10 backdrop-blur-sm"
-              }`}
+              className="group relative p-2 sm:p-3 bg-neo-black border-3 sm:border-4 border-neo-black hover:bg-neo-white transition-all duration-150 hover:shadow-brutal-sm hover:-translate-y-1"
               aria-label="LinkedIn"
             >
               <Icon
-                icon={scrolled ? "mdi:linkedin" : "logos:linkedin-icon"}
-                className="w-5 h-5 sm:w-6 sm:h-6"
+                icon="mdi:linkedin"
+                className="w-5 h-5 sm:w-6 sm:h-6 text-neo-accent group-hover:text-neo-black transition-colors"
               />
             </a>
 
             <a
               href="mailto:artmcel@hotmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`p-2 rounded-lg transition-all duration-200 hover:scale-110 cursor-pointer ${
-                scrolled
-                  ? "hover:bg-slate-100"
-                  : "hover:bg-white/10 backdrop-blur-sm"
-              }`}
+              className="group relative p-2 sm:p-3 bg-neo-black border-3 sm:border-4 border-neo-black hover:bg-neo-white transition-all duration-150 hover:shadow-brutal-sm hover:-translate-y-1"
               aria-label="Email"
             >
               <Icon
-                icon={scrolled ? "mdi:email" : "logos:google-inbox"}
-                className="w-5 h-5 sm:w-6 sm:h-6"
+                icon="mdi:email"
+                className="w-5 h-5 sm:w-6 sm:h-6 text-neo-accent group-hover:text-neo-black transition-colors"
               />
             </a>
-          </div>
-        </motion.div>
+
+            {/* CTA Button */}
+            <a
+              href="#contact"
+              className="hidden md:block px-6 py-3 bg-neo-yellow text-neo-black font-bold border-4 border-neo-black shadow-brutal-sm uppercase text-sm tracking-wider transition-all duration-150 hover:shadow-brutal hover:translate-x-1 hover:-translate-y-1"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
+              Contacto
+            </a>
+          </motion.div>
+        </div>
       </div>
+
+      {/* Animated accent line */}
+      <motion.div
+        className="h-1 bg-neo-yellow"
+        initial={{ scaleX: 0 }}
+        animate={{ scaleX: scrolled ? 1 : 0 }}
+        transition={{ duration: 0.3 }}
+        style={{ transformOrigin: "left" }}
+      />
     </motion.header>
   );
 }
