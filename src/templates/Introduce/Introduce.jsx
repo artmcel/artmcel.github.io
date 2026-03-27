@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profile from "../../assets/profile-picture.jpeg";
+import profile from "../../assets/profile-picture.png";
 
 export default function Introduce() {
   const containerVariants = {
@@ -148,7 +148,7 @@ export default function Introduce() {
             <div className="relative border-4 sm:border-6 md:border-8 border-neo-black shadow-brutal sm:shadow-brutal-lg overflow-hidden bg-neo-accent">
               <img
                 src={profile}
-                className="object-cover w-full aspect-square grayscale hover:grayscale-0 transition-all duration-300"
+                className="object-cover object-top w-full aspect-square grayscale hover:grayscale-0 transition-all duration-300"
                 alt="Arturo Morales - Full Stack Developer"
               />
               
