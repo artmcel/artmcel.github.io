@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Icon } from "@iconify/react";
+import KofiButton from "../components/KofiButton";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -168,7 +169,7 @@ export default function Footer() {
               © {currentYear} Arturo Morales Celis
             </p>
           </div>
-
+          
           <div className="flex items-center gap-3">
             <span className="font-mono text-neo-gray text-xs uppercase">Hecho con</span>
             <div className="flex gap-2">
@@ -176,12 +177,16 @@ export default function Footer() {
                 React
               </span>
               <span className="px-2 py-1 bg-neo-border border-2 border-neo-gray text-neo-accent font-mono text-xs">
-                ❤️
+                Tailwind
               </span>
               <span className="px-2 py-1 bg-neo-border border-2 border-neo-gray text-neo-accent font-mono text-xs">
-                Café
+                ❤️
               </span>
             </div>
+          </div>
+
+          <div>
+            <KofiButton/>
           </div>
         </motion.div>
 
