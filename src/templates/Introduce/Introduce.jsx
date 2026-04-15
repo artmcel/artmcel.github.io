@@ -83,8 +83,8 @@ export default function Introduce() {
               className="bg-neo-black border-3 sm:border-4 border-neo-black p-4 sm:p-6 mb-6 md:mb-8"
             >
               <p className="font-mono text-neo-accent text-sm sm:text-base md:text-lg leading-relaxed">
-                <span className="text-neo-yellow font-bold">&gt;_</span> Full-Stack Developer con 5+ años
-                transformando ideas en aplicaciones web que funcionan—del diseño a producción.
+                <span className="text-neo-yellow font-bold">&gt;_</span> Full-Stack Developer con 6+ años
+                transformando ideas en aplicaciones web que funcionan del diseño a producción.
               </p>
             </motion.div>
 
@@ -94,7 +94,7 @@ export default function Introduce() {
               className="grid grid-cols-3 gap-2 sm:gap-4 mb-6 md:mb-8"
             >
               <div className="border-3 sm:border-4 border-neo-black bg-neo-white p-2 sm:p-4 shadow-brutal-sm hover:shadow-brutal transition-all duration-150 hover:translate-x-1 hover:-translate-y-1">
-                <div className="font-display text-2xl sm:text-3xl md:text-4xl font-black text-neo-black">5+</div>
+                <div className="font-display text-2xl sm:text-3xl md:text-4xl font-black text-neo-black">6+</div>
                 <div className="font-mono text-[10px] sm:text-xs uppercase text-neo-gray mt-1">Años Exp</div>
               </div>
               <div className="border-3 sm:border-4 border-neo-black bg-neo-white p-2 sm:p-4 shadow-brutal-sm hover:shadow-brutal transition-all duration-150 hover:translate-x-1 hover:-translate-y-1">
